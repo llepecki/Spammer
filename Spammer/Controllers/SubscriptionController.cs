@@ -75,7 +75,7 @@ namespace Spammer.Controllers
                     RemoveSubscriptionAndSendConfirmation(subscription);
                 }
 
-                return Accepted();
+                return NoContent();
             }
             else
             {
@@ -101,7 +101,7 @@ namespace Spammer.Controllers
                 RemoveSubscriptionAndSendConfirmation(subscription);
             }
 
-            return Accepted();
+            return NoContent();
         }
 
         private void RemoveSubscriptionAndSendConfirmation(Subscription subscription)

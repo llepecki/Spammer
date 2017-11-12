@@ -58,7 +58,7 @@ namespace Spammer.Tests.Controllers
         }
 
         [Fact]
-        public void ChangeSubscriptionShouldRemoveSubscriptionFromRepositoryAndSendConfirmationIfAllTopicsAreRemovedAndReturn202()
+        public void ChangeSubscriptionShouldRemoveSubscriptionFromRepositoryAndSendConfirmationIfAllTopicsAreRemovedAndReturn204()
         {
             const string testMail = "test@mail.com";
             var testTopicA = new Topic { Abbreviation = "TA", Description = "Test Topic A" };
@@ -77,10 +77,9 @@ namespace Spammer.Tests.Controllers
             var controller = new SubscriptionController(repositoryMock.Object, sendContentMock.Object);
 
             IActionResult result = controller.ChangeSubscription(testMail, Enumerable.Empty<string>().ToArray());
-            var objectResult = result as ObjectResult;
+            var objectResult = result as NoContentResult;
 
             Assert.NotNull(objectResult);
-            Assert.Equal(202, objectResult.StatusCode.Value);
 
             repositoryMock.Verify(repository => repository.RemoveSubscription(It.IsAny<Subscription>()), Times.Once);
             sendContentMock.Verify(sendContent => sendContent.Send(testMail, It.IsAny<Content>()), Times.Once);
