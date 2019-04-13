@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Lepecki.Playground.Spammer.Core.Controllers
+namespace Com.Lepecki.Playground.Spammer.Core.Controllers
 {
     [Route("api/[controller]")]
     public class SampleDataController : Controller

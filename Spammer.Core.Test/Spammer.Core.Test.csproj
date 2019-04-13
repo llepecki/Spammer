@@ -2,13 +2,13 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <IsPackable>false</IsPackable>
-    <RootNamespace>Lepecki.Playground.Spammer.Core.Test</RootNamespace>
-    <AssemblyName>Lepecki.Playground.Spammer.Core.Test</AssemblyName>
+    <RootNamespace>Com.Lepecki.Playground.Spammer.Core.Test</RootNamespace>
+    <AssemblyName>Com.Lepecki.Playground.Spammer.Core.Test</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="nunit" Version="3.11.0" />
-    <PackageReference Include="NUnit3TestAdapter" Version="3.11.0" />
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.13.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.0.1" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Spammer.Core\Spammer.Core.csproj" />

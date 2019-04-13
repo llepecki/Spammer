@@ -6,8 +6,8 @@
     <IsPackable>false</IsPackable>
     <SpaRoot>..\Spammer.Spa\</SpaRoot>
     <DefaultItemExcludes>$(DefaultItemExcludes);$(SpaRoot)node_modules\**</DefaultItemExcludes>
-    <RootNamespace>Lepecki.Playground.Spammer.Core</RootNamespace>
-    <AssemblyName>Lepecki.Playground.Spammer.Core</AssemblyName>
+    <RootNamespace>Com.Lepecki.Playground.Spammer.Core</RootNamespace>
+    <AssemblyName>Com.Lepecki.Playground.Spammer.Core</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />

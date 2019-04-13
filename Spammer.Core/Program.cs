@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
-namespace Lepecki.Playground.Spammer.Core
+namespace Com.Lepecki.Playground.Spammer.Core
 {
     public class Program
     {

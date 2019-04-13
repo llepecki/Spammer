@@ -1,6 +1,6 @@
 using NUnit.Framework;
 
-namespace Lepecki.Playground.Spammer.Core.Test
+namespace Com.Lepecki.Playground.Spammer.Core.Test
 {
     public class Tests
     {
