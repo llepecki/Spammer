@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spammer.Core", "Spammer.Core\Spammer.Core.csproj", "{38E3A066-7FE9-448F-BD29-C62FB1D01BC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spammer.Core.Test", "Spammer.Core.Test\Spammer.Core.Test.csproj", "{222F0C22-FC1B-407D-8C68-FAF4613064BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spammer.Core.Tests", "Spammer.Core.Tests\Spammer.Core.Tests.csproj", "{222F0C22-FC1B-407D-8C68-FAF4613064BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
