@@ -6,9 +6,9 @@
     <AssemblyName>Com.Lepecki.Playground.Spammer.Core.Test</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="nunit" Version="3.11.0" />
+    <PackageReference Include="nunit" Version="3.12.0" />
     <PackageReference Include="NUnit3TestAdapter" Version="3.13.0" />
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.0.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.1.1" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Spammer.Core\Spammer.Core.csproj" />
